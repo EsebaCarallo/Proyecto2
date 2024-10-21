@@ -76,9 +76,9 @@ class Examen(val nombres: Array<String> = Array(4){""}){
 fun main() {
     val Examen = Examen(arrayOf("Marta", "Pedro", "Juan", "Maria"))
     Examen.leerrespuestas(charArrayOf('a', 'c', 'b', 'a', 'd', 'b', 'b', 'c', 'a', 'a', 'b', 'd'))
-    Examen.leerrespuestas(charArrayOf('a', 'c', 'b', 'a', 'd', 'b', 'b', 'c', 'a', 'a', 'b', 'd'))
-    Examen.leerrespuestas(charArrayOf('a', 'c', 'b', 'a', 'd', 'b', 'b', 'c', 'a', 'a', 'b', 'd'))
-    Examen.leerrespuestas(charArrayOf('a', 'c', 'b', 'a', 'd', 'b', 'b', 'c', 'a', 'a', 'b', 'd'))
+    Examen.leerrespuestas(charArrayOf('b', 'c', 'b', 'd', 'd', 'b', 'b', 'a', 'b', 'd', 'b'))
+    Examen.leerrespuestas(charArrayOf('c', 'c', 'b', 'a', 'a', 'b', 'c', 'c', 'a', 'a', 'b'))
+    Examen.leerrespuestas(charArrayOf('c', 'c', 'b', 'a', 'd', 'b', 'b', 'c', 'a', 'a', 'b'))
     Examen.ToString()
 }
 
